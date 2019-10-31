@@ -1,0 +1,17 @@
+h1{
+	color: red;
+}
+
+div img{
+  float: right;
+  width: 84px;
+}
+
+.titu{
+  text-align: center;
+  align-items: center;
+  width: 99%;
+  height: 70px;
+  flex-basis: auto;
+  border: 1px solid;
+}
