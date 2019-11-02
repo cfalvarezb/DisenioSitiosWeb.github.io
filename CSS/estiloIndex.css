@@ -11,6 +11,7 @@ body {
   border: 1px ;
 }
 
+<<<<<<< HEAD
 nav{
   /*Bordes redondeados*/
   -webkit-border-radius:10px;/*Para chrome y Safari*/
@@ -102,4 +103,22 @@ nav ul li a:hover {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+=======
+.parrafo{
+  color: black;
+  font-family: Times New Roman;
+  font-size: 24px;
+  width: 75%;
+  flex-basis: auto;
+  justify-content: flex-start;
+  margin: auto;
+  margin-top: 50px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+>>>>>>> c7e37a90100d09fcfe255315cf1adc1b02dbcc87
 }
