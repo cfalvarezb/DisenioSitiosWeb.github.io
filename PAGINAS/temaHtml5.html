@@ -2,31 +2,75 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link  type="text/css" href="../CSS/estiloIndex.css" rel="StyleSheet">
+        <link  type="text/css" href="../CSS/estiloHtml5.css" rel="StyleSheet">
 
         <title>HTML5</title>
-        <div style="text-align: left;"><a title="" href="../index.html">Inicio</a>/HTML5</div>
     </head>
-    <body class="margenes">
-        <section style="text-align: center;">
-            <h1 style="font-size: 200%;" class="colorAzul">HTML5</h1>
-        </section>
-        <section style="text-align: left;">
-                <h2 class="colorAzul">¿Qué hay de nuevo en HTML5?</h2>
-                <p>La declaración DOCTYPE para HTML5 es muy simple: <span><</span>!DOCTYPE html<span>>.</span> </p>
-                <p>La declaración de codificación de caracteres (charset) también es muy simple: <span><</span>meta charset="UTF-8"<span>>.</span>  </p>
-                <p>La codificación de caracteres predeterminada en HTML5 es UTF-8.</p>
+    <body>
+        <section>
+        <div class="grid-container">
+            <div class="item1">
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a title="Inicio" href="../index.html">Inicio</a></li>
+                            <li><a title="HTML5" href="temaCss3.html">CSS3</a></li>
+                            <li><a title="CSS3" href="temaGitHub.html">Git/GitHub</a></li>
+                            <li><a title="Videos" href="temaVideos.html">Videos</a></li>
+                            <li><a title="Autores" href="temaAutores.html">Autores</a></li>
+                        </ul>
+                    </nav>          
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <hr>
+        <h1>HTML5</h1>
+        <hr>
+    </section>
+
+    <section>
+        <h2 class="tituHtml5">¿Qué hay de nuevo en HTML5?</h2>
+        <div class="temaHtml5">
+        <h3>
+            La declaración DOCTYPE para HTML5 es muy simple: <span><</span>!DOCTYPE html<span>>.</span> 
+        </h3>
+        <h3>
+            La declaración de codificación de caracteres (charset) también es muy simple: <span><</span>meta charset="UTF-8"<span>>.</span>  
+        </h3>
+        <h3>
+            La codificación de caracteres predeterminada en HTML5 es UTF-8.
+        </h3>
+        </div>
+        <br>
+
+        <h2 class="tituHtml5">Nuevos elementos HTML5</h2>
+        <div class="temaHtml5">
+            <h3>
+                Los nuevos elementos HTML5 más interesantes son: 
+            </h3>
+            <h3>
+                Nuevos elementos semánticos como <span><</span>header<span>></span>, <span><</span>footer<span>></span>, <span><</span>article<span>></span>, y <span><</span>section<span>></span>.
+            </h3>
+            <h3>
+                Nuevos atributos de elementos de formulario como número, fecha, hora, calendario y rango.
+            </h3>
+            <h3>
+                Nuevos elementos gráficos : <span><</span>svg<span>></span> y <span><</span>canvas<span>></span>.
+            </h3>
+            <h3>
+                Nuevos elementos multimedia : <span><</span>audio<span>></span> y <span><</span>video<span>></span>.
+            </h3>
+        </div>
+            
+            <h2 class="tituHtml5">Nuevas API HTML5 (interfaces de programación de aplicaciones)</h2>
+            <div class="temaHtml5">
                 <br>
-                <h2>Nuevos elementos HTML5</h2>
-                <p>Los nuevos elementos HTML5 más interesantes son: </p>
-                <p>Nuevos elementos semánticos como <span><</span>header<span>></span>, <span><</span>footer<span>></span>, <span><</span>article<span>></span>, y <span><</span>section<span>></span>.</p>
-                <p>Nuevos atributos de elementos de formulario como número, fecha, hora, calendario y rango.</p>
-                <p>Nuevos elementos gráficos : <span><</span>svg<span>></span> y <span><</span>canvas<span>></span>.</p>
-                <p>Nuevos elementos multimedia : <span><</span>audio<span>></span> y <span><</span>video<span>></span>.</p>
-                <br>
-                <h2 class="colorAzul">Nuevas API HTML5 (interfaces de programación de aplicaciones)</h2>
-                <p>nuevas API más interesantes en HTML5 son:</p>
-                <p>
+                <h3>
+                    nuevas API más interesantes en HTML5 son:
+                </h3>
+                <h3>
                     <ul>
                         <li>Geolocalización HTML</li>
                         <li>Arrastrar y soltar HTML</li>
@@ -35,13 +79,16 @@
                         <li>Trabajadores web HTML</li>
                         <li>HTML SSE</li>
                     </ul>
-                </p>
-                <p style="background-color: #094386;">Tip: El almacenamiento local HTML es un poderoso reemplazo para las cookies.</p>
+                </ph3>
+                <h4 style="background-color: #094386;">Tip: El almacenamiento local HTML es un poderoso reemplazo para las cookies.</h4>
                 <br>
-                <h2 class="colorAzul">Elementos eliminados en HTML5</h2>
-                <p>Los siguientes elementos HTML4 se han eliminado en HTML5:</p>
-                <p>
-                    <table>
+                </div>
+                
+                <h2 class="tituHtml5">Elementos eliminados en HTML5</h2>
+                <div class="temaHtml5">
+                <h3 style="text-align: center;">Los siguientes elementos HTML4 se han eliminado en HTML5:</h3>
+                <h3>
+                    <table class="tblHtml5">
                             <tr>
                                 <th>Elemento eliminado</th>
                                 <th>Reemplazo</th>
@@ -95,12 +142,15 @@
                                 <td></td>
                             </tr>
                             </table>
-                </p>
+                </h3>
+            </div>
                 <br>
-                <h2 class="colorAzul">Historia HTML</h2>
-                <p>Desde los primeros días de la World Wide Web, ha habido muchas versiones de HTML:</p>
-                <p>
-                    <table>
+                
+                <h2 class="tituHtml5">Historia HTML</h2>
+                <div class="temaHtml5">
+                <h3 style="">Desde los primeros días de la World Wide Web, ha habido muchas versiones de HTML:</h3>
+                <h3>
+                    <table class="tblHtml5">
                             <tr>
                                 <th>Año</th>
                                 <th>Version</th>
@@ -111,7 +161,7 @@
                             </tr>
                             <tr>
                                 <td>1991</td>
-                                <td>Tim Berners-Lee invento HTML</span></td>
+                                <td>Tim Berners-Lee invento HTML</td>
                             </tr>
                             <tr>
                                 <td>1993</td>
@@ -154,60 +204,122 @@
                                 <td>Recomendación W3C: HTML5.1 2a edición</td>
                             </tr>
                     </table>
-                </p>
-                <p>De 1991 a 1999, HTML se desarrolló de la versión 1 a la versión 4. </p>
-                <p>En el año 2000, el Consorcio World Wide Web (W3C) recomendó XHTML 1.0. La sintaxis XHTML era estricta, y los desarrolladores se vieron obligados a escribir código válido y "bien formado".</p>
-                <p>En 2004, W3C decidió cerrar el desarrollo de HTML, a favor de XHTML.</p>
-                <p>En 2004, se formó WHATWG (Grupo de trabajo de tecnología de aplicación de hipertexto web). El WHATWG quería desarrollar HTML, de acuerdo con la forma en que se usaba la web, a la vez que era compatible con versiones anteriores de HTML.</p>
-                <p>En 2004 - 2006, el WHATWG obtuvo el apoyo de los principales proveedores de navegadores.</p>
-                <p>En 2006, el W3C anunció que apoyarían a WHATWG.</p>
-                <p>En 2008, se lanzó el primer borrador público HTML5.</p>
-                <p>En 2012, WHATWG y W3C decidieron una separación:</p>
-                <p>WHATWG quería desarrollar HTML como un "estándar de vida" . Un nivel de vida siempre se actualiza y mejora. Se pueden agregar nuevas funciones, pero no se pueden eliminar las funcionalidades antiguas.</p>
-                <p>El WHATWG HTML5 Living Standard se publicó en 2012 y se actualiza continuamente.</p>
-                <p>W3C quería desarrollar un estándar HTML5 y XHTML definitivo.</p>
-                <p>La Recomendación W3C HTML5 se lanzó el 28 de octubre de 2014.</p>
-                <p>La Recomendación W3C HTML5.1 2nd Edition se lanzó el 3 de octubre de 2017.</p>
-                <p>La Recomendación W3C HTML5.2 se lanzó el 14 de diciembre de 2017.</p>
+                </h3>
+                <h3>
+                    De 1991 a 1999, HTML se desarrolló de la versión 1 a la versión 4. 
+                </h3>
+                <h3>
+                    En el año 2000, el Consorcio World Wide Web (W3C) recomendó XHTML 1.0. La sintaxis XHTML era estricta, y los desarrolladores se vieron obligados a escribir código válido y "bien formado".
+                </h3>
+                <h3>
+                    En 2004, W3C decidió cerrar el desarrollo de HTML, a favor de XHTML.
+                </h3>
+                <h3>
+                    En 2004, se formó WHATWG (Grupo de trabajo de tecnología de aplicación de hipertexto web). El WHATWG quería desarrollar HTML, de acuerdo con la forma en que se usaba la web, a la vez que era compatible con versiones anteriores de HTML.
+                </h3>
+                <h3>
+                En 2004 - 2006, el WHATWG obtuvo el apoyo de los principales proveedores de navegadores.    
+                </h3>
+                <h3>
+                    En 2006, el W3C anunció que apoyarían a WHATWG.
+                </h3>
+                <h3>
+                    En 2008, se lanzó el primer borrador público HTML5.
+                </h3>
+                <h3>
+                    En 2012, WHATWG y W3C decidieron una separación:
+                </h3>
+                <h3>
+                    WHATWG quería desarrollar HTML como un "estándar de vida" . Un nivel de vida siempre se actualiza y mejora. Se pueden agregar nuevas funciones, pero no se pueden eliminar las funcionalidades antiguas.
+                </h3>
+                <h3>
+                    El WHATWG HTML5 Living Standard se publicó en 2012 y se actualiza continuamente.
+                </h3>
+                <h3>
+                    W3C quería desarrollar un estándar HTML5 y XHTML definitivo.
+                </h3>
+                <h3>
+                    La Recomendación W3C HTML5 se lanzó el 28 de octubre de 2014.
+                </h3>
+                <h3>
+                    La Recomendación W3C HTML5.1 2nd Edition se lanzó el 3 de octubre de 2017.
+                </h3>
+                <h3>    
+                    La Recomendación W3C HTML5.2 se lanzó el 14 de diciembre de 2017.   
+                </h3>
                 <br>
-        </section>
-        <section style="text-align: left;">
-                <h2 class="colorAzul">Soporte de navegador HTML5</h2>
-                <p>HTML5 es compatible con todos los navegadores modernos.</p>
-                <p>Además, todos los navegadores, antiguos y nuevos, manejan automáticamente elementos no reconocidos como elementos en línea.</p>
-                <p>Debido a esto, puede "enseñar" a los navegadores antiguos a manejar elementos HTML "desconocidos".</p>
-                <br>
+            </div>       
+               
+                <h2 class="tituHtml5">Soporte de navegador HTML5</h2>
+                <div class="temaHtml5">
+                    <h3>
+                        HTML5 es compatible con todos los navegadores modernos.
+                    </h3>
+                    <h3>
+                        Además, todos los navegadores, antiguos y nuevos, manejan automáticamente elementos no reconocidos como elementos en línea.
+                    </h3>
+                    <h3>
+                        Debido a esto, puede "enseñar" a los navegadores antiguos a manejar elementos HTML "desconocidos".
+                    </h3>
+                    <br>
+                </div>
                 
-                <h2 class="colorAzul">Definir elementos semánticos como elementos de bloque</h2>
-                <p>HTML5 define ocho nuevos elementos semánticos . Todos estos son elementos a nivel de bloque .</p>
-                <p>Para asegurar el comportamiento correcto en navegadores antiguos, puede configurar la propiedad de visualización CSS para que bloqueen estos elementos HTML :</p>
-                <p style="color: red;">header, section, footer, aside, nav, main, article, figure {display: block;}</p>
+                <h2 class="tituHtml5">Definir elementos semánticos como elementos de bloque</h2>
+                <div class="temaHtml5">
+                    <h3>
+                        HTML5 define ocho nuevos elementos semánticos . Todos estos son elementos a nivel de bloque .
+                    </h3>
+                    <h3>
+                        Para asegurar el comportamiento correcto en navegadores antiguos, puede configurar la propiedad de visualización CSS para que bloqueen estos elementos HTML :
+                    </h3>
+                    <h4 style="color: red; text-align: center;">header, section, footer, aside, nav, main, article, figure {display: block;}</h4>
+                    <br>
+                </div>
+                
+                <h2 class="tituHtml5">Agregar nuevos elementos a HTML</h2>
+                <div class="temaHtml5">
+                <h3>
+                    También puede agregar nuevos elementos a una página HTML con un truco del navegador.
+                </h3>
+                <h3>
+                    Este ejemplo agrega un nuevo elemento llamado <span><</span>myHero<span>></span> a una página HTML y define un estilo para él:
+                </h3>
                 <br>
+                <img src="../Imagenes/EjemploElementos.png" class="imgHtml5">
+                <br>
+                <h3>
+                    La declaración de JavaScript document.createElement("myHero")es necesaria para crear un nuevo elemento en IE 9 y versiones anteriores.
+                </h3>
+                <br>
+                </div>
+                
+                <h2 class="tituHtml5">Problema con Internet Explorer 8</h2>
+                <div class="temaHtml5">
+                <h3 style="text-align: center;">
+                    Puede usar la solución descrita anteriormente para todos los nuevos elementos HTML5.
+                </h3>
+                <h3 style="text-align: center;">
+                    ¡Sin embargo, IE8 (y versiones anteriores) no permite el estilo de elementos desconocidos!
+                </h3>
+                <h3 style="text-align: center;">
+                    ¡Afortunadamente, Sjoerd Visscher creó HTML5Shiv! HTML5Shiv es una solución alternativa de JavaScript para habilitar el diseño de elementos HTML5 en versiones de Internet Explorer anteriores a la versión 9.
+                </h3>    
+                <br> 
+                </div>   
 
-                <h2 class="colorAzul">Agregar nuevos elementos a HTML</h2>
-                <p>También puede agregar nuevos elementos a una página HTML con un truco del navegador.</p>
-                <p>Este ejemplo agrega un nuevo elemento llamado <span><</span>myHero<span>></span> a una página HTML y define un estilo para él:</p>
+                <h2 class="tituHtml5">Nuevos elementos en HTML5</h2>
+                <div>
+                <h3>A continuación se muestra una lista de los nuevos elementos HTML5 y una descripción de para qué se utilizan.</h3>
                 <br>
-                <p><img style="width: 80%;" src="../Imagenes/EjemploElementos.png"></p>
-                <br>
-                <p>La declaración de JavaScript document.createElement("myHero")es necesaria para crear un nuevo elemento en IE 9 y versiones anteriores.</p>
-                <br>
-
-                <h2 class="colorAzul">Problema con Internet Explorer 8</h2>
-                <p>Puede usar la solución descrita anteriormente para todos los nuevos elementos HTML5.</p>
-                <p>¡Sin embargo, IE8 (y versiones anteriores) no permite el estilo de elementos desconocidos!</p>
-                <p>¡Afortunadamente, Sjoerd Visscher creó HTML5Shiv! HTML5Shiv es una solución alternativa de JavaScript para habilitar el diseño de elementos HTML5 en versiones de Internet Explorer anteriores a la versión 9.</p>    
-                <br>    
-        </section>
-
-        <section style="text-align: left;">
-                <h2 class="colorAzul">Nuevos elementos en HTML5</h2>
-                <p>A continuación se muestra una lista de los nuevos elementos HTML5 y una descripción de para qué se utilizan.</p>
-                <br>
-                <h2 class="colorAzul">Nuevos elementos semánticos / estructurales</h2>
-                <p>HTML5 ofrece nuevos elementos para una mejor estructura de documentos:</p>
-                <p>
-                    <table>
+                </div>
+                
+                <h2 class="tituHtml5">Nuevos elementos semánticos / estructurales</h2>
+                <div class="temaHtml5">
+                <h3>
+                    HTML5 ofrece nuevos elementos para una mejor estructura de documentos:
+                </h3>
+                <h3>
+                    <table class="tblHtml5Img">
                             <tr>
                                 <th>Tag</th>
                                 <th>Descripcion</th>
@@ -319,13 +431,15 @@
                                 <td style="text-align: center;"><img style="width: 80%;" src="../Imagenes/EjemploWbr.png"></td>
                             </tr>
                     </table>
-                </p>
+                </h3>
                 <br>
+            </div>
+                
+                <h2 class="tituHtml5">Nuevos elementos de formulario</h2>
+                <div class="temaHtml5">
+                <h3>
 
-                <h2 class="colorAzul">Nuevos elementos de formulario</h2>
-                <p>
-
-                    <table>
+                    <table class="tblHtml5Img"> 
                         <tr>
                             <th>Tag</th>
                             <th>Descripcion</th>
@@ -342,12 +456,14 @@
                             <td style="text-align: center;"><img style="width: 80%;" src="../Imagenes/EjemploOutput.png"></td>
                         </tr>
                     </table>        
-                </p>
+                </h3>
+                </div>
                 <br>
 
-                <h2 class="colorAzul">Nuevos Tipos de entrada</h2>
-                <p>
-                    <table>
+                <h2 class="tituHtml5">Nuevos Tipos de entrada</h2>
+                <div class="temaHtml5">
+                <h3>
+                    <table class="tblHtml5">
                             <tr>
                                 <th>Nuevos tipos de entrada</th>
                                 <th>Nuevos Atributos de entrada</th>
@@ -392,14 +508,20 @@
                                 </td>
                             </tr>                           
                         </table> 
-                </p>
+                </h3>
+                </div>
                 <br>
 
-                <h2 class="colorAzul">HTML5 - Nueva sintaxis de atributo</h2>
-                <p>HTML5 permite cuatro sintaxis diferentes para los atributos.</p>
-                <p>Este ejemplo demuestra las diferentes sintaxis utilizadas en una <span><</span>input<span>></span> etiqueta:</p>
-                <p>
-                    <table>
+                <h2 class="tituHtml5">HTML5 - Nueva sintaxis de atributo</h2>
+                <div class="temaHtml5">
+                <h3>
+                    HTML5 permite cuatro sintaxis diferentes para los atributos.
+                </h3>
+                <h3>
+                    Este ejemplo demuestra las diferentes sintaxis utilizadas en una <span><</span>input<span>></span> etiqueta:
+                </h3>
+                <h3>
+                    <table class="tblHtml5">
                             <tr>
                                 <th>Tipo</th>
                                 <th>Ejemplo</th>
@@ -421,12 +543,14 @@
                                 <td><span><</span> input type="text" value='Fernando Bolaños' <span>></span></td> 
                             </tr>
                         </table>
-                </p>
+                </h3>
+                </div>
                 <br>
 
-                <h2 class="colorAzul">Gráficos HTML5</h2>
-                <p>
-                    <table>
+                <h2 class="tituHtml5">Gráficos HTML5</h2>
+                <div class="temaHtml5">
+                <h3>
+                    <table class="tblHtml5Img">
                         <tr>
                             <th>Tag</th>
                             <th>Descripcion</th>
@@ -443,12 +567,14 @@
                             <td style="text-align: center;"><img style="width: 80%;" src="../Imagenes/EjemploSvg.png"></td>
                         </tr>                     
                     </table>
-                </p>
+                </h3>
+                </div>
                 <br>
 
-                <h2 class="colorAzul">Nuevos elementos multimedia</h2>
-                <p>
-                    <table>
+                <h2 class="tituHtml5">Nuevos elementos multimedia</h2>
+                <div class="temaHtml5">
+                <h3>
+                    <table class="tblHtml5Img">
                         <tr>
                             <th>Tag</th>
                             <th>Descripcion</th>
@@ -458,7 +584,7 @@
                             <td>audio</td>
                             <td>Define contenido de sonido</td>                                
                             <td style="text-align: center;"><img style="width: 80%;" src="../Imagenes/EjemploAudio.png"></td>
-                        </tr>
+                        </3tr>
                         <tr>
                             <td>embed</td>
                             <td>Define un contenedor para una aplicación externa (no HTML)</td>                                
@@ -480,8 +606,9 @@
                             <td style="text-align: center;"><img style="width: 80%;" src="../Imagenes/EjemploVideo.png"></td>
                         </tr>                 
                     </table>
-                </p>
+                </h3>
                 <br>
+                </div>
         </section>
     </body>
     <footer>            

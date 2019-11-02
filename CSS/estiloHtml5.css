@@ -4,7 +4,6 @@ body {
     text-align: center;
 }
 
-/*menu*/
 nav{
   
   /*Degradados*/
@@ -39,6 +38,7 @@ nav ul li{
   text-align:center;
   flex-basis: auto;
   justify-content: space-around;
+  display: flex;
   /*Sombras para texto, los mismos parametros que box-shadow*/
   text-shadow: 0px 1px 0px #FFF;
 }
@@ -58,11 +58,12 @@ nav ul li:hover{
 }
 
 nav ul li a{
-  color:#005883;
+  color:#fff;
   display:block;
   padding:10px;
   text-decoration:none;
   flex-basis: auto;
+  display: flex;
   justify-content: space-around;
   /*Transiciones*/
   -webkit-transition: 0.4s linear all;
@@ -89,33 +90,60 @@ nav ul li a:hover {
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: #005883;
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(235, 235, 235, 0);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
 
-/* estilos para tablas */
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  background-color: #005883;
-}
-
-td, th {
-  border: 1px solid #030303;
+.colorAzul{
+  color: #005883;
   text-align: left;
-  padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #808080;
-}		
-
+/*para el archivo de temaCss3.html*/
+.tituHtml5{
+  color: #005883;
+}
+.temaHtml5{
+  text-align: justify;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: Times New Roman;
+  color: #f2f2f2;
+}
+.tblHtml5{
+	display: flex;
+	margin: auto;
+	flex-basis: auto;
+	text-align: center;
+	align-items: center;
+	width: 45%;
+	flex-direction: column;
+}
+.tblHtml5 th{
+	border: 1px solid;
+}
+.tblHtml5 td{
+	border: 1px solid;
+}
+.tblHtml5Img{
+	width: 100%;
+	display: flex;
+	margin: auto;
+	flex-basis: auto;
+	text-align: center;
+	align-items: center;
+}
+.imgHtml5{
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
