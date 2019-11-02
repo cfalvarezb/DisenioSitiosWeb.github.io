@@ -30,8 +30,6 @@ nav{
   overflow:hidden;
   padding:10px;
   width:98.5%;
-  justify-content: space-around;
-  flex-basis: auto;
 }
 
 nav ul{
@@ -57,6 +55,7 @@ nav ul li{
   text-align:center;
   flex-basis: auto;
   justify-content: space-around;
+  display: flex;
   /*Sombras para texto, los mismos parametros que box-shadow*/
   text-shadow: 0px 1px 0px #FFF;
 }
@@ -76,11 +75,12 @@ nav ul li:hover{
 }
 
 nav ul li a{
-  color:#005883;
+  color:#fff;
   display:block;
   padding:10px;
   text-decoration:none;
   flex-basis: auto;
+  display: flex;
   justify-content: space-around;
   /*Transiciones*/
   -webkit-transition: 0.4s linear all;
@@ -107,13 +107,34 @@ nav ul li a:hover {
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: #005883;
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(235, 235, 235, 0);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+/*para el archivo temaGitHub.html*/
+.tituGithub{
+  color: red;
+}
+.subtiGithub{
+  color: #FF5733;
+}
+.temaGithub{
+  text-align: justify;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: Times New Roman;
+  color: #f2f2f2;
+}
+.imgGithub{  
+  align-items: center;
+  display: flex;
+  margin: auto;
 }

@@ -14,9 +14,9 @@
                 <div>
                     <nav>
                         <ul>
+                            <li><a title="Inicio" href="../index.html">Inicio</a></li>
                             <li><a title="HTML5" href="temaHtml5.html">HTML5</a></li>
                             <li><a title="CSS3" href="temaCss3.html">CSS3</a></li>
-                            <li><a title="Git/GitHub" href="temaGitHub.html">Git/GitHub</a></li>
                             <li><a title="Videos" href="temaVideos.html">Videos</a></li>
                             <li><a title="Autores" href="temaAutores.html">Autores</a></li>
                         </ul>
@@ -25,66 +25,134 @@
             </div>
         </div>
     </section>
-    <section><h1>Git y GitHub</h1></section>
     <section>
-        <h1>¿Que es Git?</h1>    
-        <p>Git, es un software de control de versiones diseñado por Linus Torvalds. Pero ¿qué es control de versiones? Pues bien, se define como control de versiones a la gestión de los cambios que se realizan algún producto. Exactamente es lo que se hace cuando subes y actualizas tu código en la nube, o le añades alguna parte o simplemente le editas cosas que no funcionan, etc. Y, entonces ¿a que le llamamos sistema de control de versiones? Muy sencillo, son todas las herramientas que nos permiten hacer todas esas modificaciones antes mencionadas en nuestro código y hacen que sea más fácil la administración de las distintas versiones de cada producto desarrollado; en otras palabras Git.</p>
+        <hr>
+        <h1>Git y GitHub</h1>
+        <hr>
     </section>
     <section>
-        <h2>Instalando Git</h2>
-        <p>Lo primero es entrar a <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a> seleccionar el sistema operativo y esperar a que se descargue el .exe</p>
-        <img style="width: 70%;" src="../Imagenes/instalacionGit.png">
-        <p>Escojer el sistema operativo de nuestra conveniencia y pulsar el icono, veremos que se comienza descargar el .exe correspondiente</p>
-        <img style="width: 70%;" src="../Imagenes/instalacionGitDescarga.png">
-        <p>Una vez finalice la descarga abrimos el archivo y segun la configuración que queramos usar en Git  escojemos las opciones correspondientes. A continuacion se relaciona un video mas detallado acerca de la instalación de Git <a href="https://www.youtube.com/watch?v=7qzV04C5S-k">https://www.youtube.com/watch?v=7qzV04C5S-k</a></p>
-    </section>
-    <section>
-        <h2>Comandos Basicos Git</h2>
-        <p>Existen varios comandos principales los cuales son muy usandos en Git para el manejo y control de las versiones, algunos de estos son:</p>
-        <h3>$ git init: </h3>
-        <p>Esto crea un nuevo subdirectorio llamado .git que contiene todos los archivos necesarios del repositorio, en otras palabras crea un esqueleto de un repositorio Git.</p> 
-        <h3>$git clone [url]</h3>
-        <p>Este comando permite clonar un repositorio git en la web, lo cual significa que cualquier proyecto git es descargable y modificable para cualquier persona</p>
-        <h3>$git status</h3>
-        <p>Este comando nos permite ver los cambios locales realizados respecto al branch que nos encontremos, por ejemplo en un proyecto recien clonado no veremos nada si ejecutamos este comando, sin embargo si agregamos o modificamos cualquier archivo veremos que este comando nos permite identificar los archivos modificados</p>
-        <h3>$ git add *.c: </h3>
-        <p>Este comando agrega el o los archivos que escojamos los cuales queramos agregar y tener listos para hacer commit</p>
-        <h3>$ git commit –m 'comentario': </h3>
-        <p>Este comando permite confirmar los cambios que se realizaron y se agregaron mediante el anterior comando "add".</p>
-        <h3>$ git fetch: </h3>
-        <p>Este comando permite revisar y actualizar las ramas que se han creado en el proyecto y poder hacer una copia local de una rama que otra persona este trabajando</p>
-        <h3>$ git merge: </h3>
-        <p>Este comando es uno de los mas usado, se utiliza para fusionar uno o más ramas dentro de la rama que tienes activa</p>
-        <h3>$ git pull: </h3>
-        <p>Este comando permite actualizar tu repositorio local con los cambios del repositorio remoto, si hay conflictos deberas ejecutar un comando merge</p>
-        <h3>$ git push origin master: </h3>
-        <p>Este comando permite enviar tus cambios a un repositorio remoto y actualizarlo, si hay cambios tendras que ejecutar un comando pull y un comando merge para resolver las inconsistencias y poder enviar el push de forma correcta al repositorio remoto</p>
-        <h3>$ git checkout: </h3>
-        <p>Este comando se usa para cambiar de rama y revisar el contenido de tu directorio de trabajo.</p>
+        <h2 class="tituGithub">¿Que es Git?</h2>
+        <div class="temaGithub">
+        <br>    
+            <h3>
+                Git, es un software de control de versiones diseñado por Linus Torvalds. Pero ¿qué es control de versiones? Pues bien, se define como control de versiones a la gestión de los cambios que se realizan algún producto. Exactamente es lo que se hace cuando subes y actualizas tu código en la nube, o le añades alguna parte o simplemente le editas cosas que no funcionan, etc. Y, entonces ¿a que le llamamos sistema de control de versiones? Muy sencillo, son todas las herramientas que nos permiten hacer todas esas modificaciones antes mencionadas en nuestro código y hacen que sea más fácil la administración de las distintas versiones de cada producto desarrollado; en otras palabras Git.
+            </h3>
+        </div>
+    
+        <h2 class="tituGithub">Instalando Git</h2>
+        <div class="temaGithub">
+            <hr>
+                <h3>
+                    Lo primero es entrar a <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a> seleccionar el sistema operativo y esperar a que se descargue el .exe
+                </h3>
+                <img style="width: 70%;" src="../Imagenes/instalacionGit.png" class="imgGithub">
+                <h3>
+                    Escojer el sistema operativo de nuestra conveniencia y pulsar el icono, veremos que se comienza descargar el .exe correspondiente
+                </h3>
+                <img style="width: 70%;" src="../Imagenes/instalacionGitDescarga.png" class="imgGithub">
+                <h3>
+                    Una vez finalice la descarga abrimos el archivo y segun la configuración que queramos usar en Git  escojemos las opciones correspondientes. A continuacion se relaciona un video mas detallado acerca de la instalación de Git <a href="https://www.youtube.com/watch?v=7qzV04C5S-k">https://www.youtube.com/watch?v=7qzV04C5S-k</a>
+                </h3>
+        </div>
+    
+        <h2 class="tituGithub">Comandos Basicos Git</h2>
+        <div class="temaGithub">
+        <br>
+            <h3>
+                Existen varios comandos principales los cuales son muy usandos en Git para el manejo y control de las versiones, algunos de estos son:
+            </h3>
+            <br>
+            <h3 class="subtiGithub">$ git init: </h3>
+            <h4>
+                Esto crea un nuevo subdirectorio llamado .git que contiene todos los archivos necesarios del repositorio, en otras palabras crea un esqueleto de un repositorio Git.
+            </h4> 
 
-        <h4>A continuacion se anexa un link el cual contiene informacion mas detallada acerca de los comandos en Git. <a href="https://git-scm.com/docs/git">https://git-scm.com/docs/git</a></h4>
+            <h3 class="subtiGithub">$git clone [url]</h3>
+            <h4>
+                Este comando permite clonar un repositorio git en la web, lo cual significa que cualquier proyecto git es descargable y modificable para cualquier persona
+            </h4>
 
-        <img style="width: 70%;" src="../Imagenes/comandos git.png">
-    </section>
-    <section>
-        <h1>¿Que es GitHub?</h1> 
-        <p>GitHub es una compañía sin fines de lucro que ofrece un servicio de hosting de repositorios almacenados en la nube. Esencialmente, hace que sea más fácil para individuos y equipos usar Git como la versión de control y colaboración. La interfaz de GitHub es bastante fácil de usar para el desarrollador novato que quiera aprovechar las ventajas del Git. Sin GitHub, usar un Git generalmente requiere de un poco más de conocimientos de tecnología y uso de una línea de comando.</p>
-        <img style="width: 10%;" src="../Imagenes/githubtema.png">
-    </section>
-    <section>
-        <h1>¿Porque usar GitHub?</h1> 
-        <p>Es una plataforma que permite crear repositorios de código colaborativo. Es decir, un lugar donde guardar ficheros con código fuente en cualquier lenguaje y ponerlo a disposición de todo aquel que esté interesado. Incluso puedes gestionar los permisos de cada proyecto que subas a la plataforma para que otros opinen, lo modifiquen</p>
-    </section>
-    <section>
-        <h1>¿Colaborar en GitHub?</h1> 
-        <p>Github contiene multitud de proyectos de manera abierta. Gracias a esto podrás crear tus propias herramientas basándote en un proyecto o colaborar en algún proyecto.
-        La mayoría de herraamientas que usas como desarrollador, librerías o frameworks están en Github y puedes contribuir a mejorarlos. Un fork es una funcionalidad de Github que nos permite crear un repositorio en nuestra cuenta que tenga exactamente los mismos archivos, commits e información que otro que hayas elegido. Si haces algún cambio y deseas que se añada al proyecto desde el que has hecho la copia necesitarás hacer un pull request, una propuesta para que los administradores del proyecto principal revisen los cambios producidos y decidan si añadir tu código al proyecto. <a href="https://guides.github.com/introduction/flow/">https://guides.github.com/introduction/flow/</a> </p>
-    </section>
-    <section>
-        <h2>Herramientas parecidas a GitHub</h2>
-        <p>Una alternativa a Github muy conocida es Gitlab que es muy famosa ya que permite repositorios privados gratis, frente a Github que desde hace muy poco no lo permitía. También hay otra alternativa conocida llamada Bitbucket. Es de la empresa Atlassian por lo que se integra fácilmente con herramientas como Trello o Jira.</p>
-        <img style="width: 40%;" src="../Imagenes/comparativegithub.jpg">
+            <h3 class="subtiGithub">$git status</h3>
+            <h4>
+                Este comando nos permite ver los cambios locales realizados respecto al branch que nos encontremos, por ejemplo en un proyecto recien clonado no veremos nada si ejecutamos este comando, sin embargo si agregamos o modificamos cualquier archivo veremos que este comando nos permite identificar los archivos modificados
+            </h4>
+
+            <h3 class="subtiGithub">$ git add *.c: </h3>
+            <h4>Este comando agrega el o los archivos que escojamos los cuales queramos agregar y tener listos para hacer commit</h4>
+            
+            <h3 class="subtiGithub">$ git commit –m 'comentario': </h3>
+            <h4>
+                Este comando permite confirmar los cambios que se realizaron y se agregaron mediante el anterior comando "add".
+            </h4>
+            
+            <h3 class="subtiGithub">$ git fetch: </h3>
+            <h4>
+                Este comando permite revisar y actualizar las ramas que se han creado en el proyecto y poder hacer una copia local de una rama que otra persona este trabajando
+            </h4>
+            
+            <h3 class="subtiGithub">$ git merge: </h3>
+            <h4>
+                Este comando es uno de los mas usado, se utiliza para fusionar uno o más ramas dentro de la rama que tienes activa
+            </h4>
+            
+            <h3 class="subtiGithub">$ git pull: </h3>
+            <h4>
+                Este comando permite actualizar tu repositorio local con los cambios del repositorio remoto, si hay conflictos deberas ejecutar un comando merge
+            </h4>
+            
+            <h3 class="subtiGithub">$ git push origin master: </h3>
+            <h4>
+                Este comando permite enviar tus cambios a un repositorio remoto y actualizarlo, si hay cambios tendras que ejecutar un comando pull y un comando merge para resolver las inconsistencias y poder enviar el push de forma correcta al repositorio remoto
+            </h4>
+            
+            <h3 class="subtiGithub">$ git checkout: </h3>
+            <h4>
+                Este comando se usa para cambiar de rama y revisar el contenido de tu directorio de trabajo.
+            </h4>
+
+            <h5>
+                A continuacion se anexa un link el cual contiene informacion mas detallada acerca de los comandos en Git. <a href="https://git-scm.com/docs/git">https://git-scm.com/docs/git</a>
+            </h5>
+
+            <img style="width: 70%;" src="../Imagenes/comandos git.png" class="imgGithub">
+        </div>
+        
+        <h2 class="tituGithub">¿Que es GitHub?</h2>
+        <div class="temaGithub"> 
+        <br>
+        <h3>
+            GitHub es una compañía sin fines de lucro que ofrece un servicio de hosting de repositorios almacenados en la nube. Esencialmente, hace que sea más fácil para individuos y equipos usar Git como la versión de control y colaboración. La interfaz de GitHub es bastante fácil de usar para el desarrollador novato que quiera aprovechar las ventajas del Git. Sin GitHub, usar un Git generalmente requiere de un poco más de conocimientos de tecnología y uso de una línea de comando.
+        </h3>
+        <img style="width: 10%;" src="../Imagenes/githubtema.png" class="imgGithub">
+        
+        </div>
+    
+        <h2 class="tituGithub">¿Porque usar GitHub?</h2> 
+        <div class="temaGithub">
+        <br>
+        <h3>
+            Es una plataforma que permite crear repositorios de código colaborativo. Es decir, un lugar donde guardar ficheros con código fuente en cualquier lenguaje y ponerlo a disposición de todo aquel que esté interesado. Incluso puedes gestionar los permisos de cada proyecto que subas a la plataforma para que otros opinen, lo modifiquen
+        </h3>
+        </div>
+    
+        <h2 class="tituGithub">¿Colaborar en GitHub?</h2> 
+        <div class="temaGithub">
+            <br>
+            <h3>
+                Github contiene multitud de proyectos de manera abierta. Gracias a esto podrás crear tus propias herramientas basándote en un proyecto o colaborar en algún proyecto.<br>
+                La mayoría de herraamientas que usas como desarrollador, librerías o frameworks están en Github y puedes contribuir a mejorarlos. Un fork es una funcionalidad de Github que nos permite crear un repositorio en nuestra cuenta que tenga exactamente los mismos archivos, commits e información que otro que hayas elegido. Si haces algún cambio y deseas que se añada al proyecto desde el que has hecho la copia necesitarás hacer un pull request, una propuesta para que los administradores del proyecto principal revisen los cambios producidos y decidan si añadir tu código al proyecto. <a href="https://guides.github.com/introduction/flow/">https://guides.github.com/introduction/flow/</a> 
+            </h3>
+        </div>
+    
+        <h2 class="tituGithub">Herramientas parecidas a GitHub</h2>
+        <div class="temaGithub">
+            <h3>
+                Una alternativa a Github muy conocida es Gitlab que es muy famosa ya que permite repositorios privados gratis, frente a Github que desde hace muy poco no lo permitía. También hay otra alternativa conocida llamada Bitbucket. Es de la empresa Atlassian por lo que se integra fácilmente con herramientas como Trello o Jira.
+            </h3>
+            <img style="width: 40%;" src="../Imagenes/comparativegithub.jpg" class="imgGithub">
+        </div>    
         <hr>    
+    
     </section>
 </body>
 <footer>
