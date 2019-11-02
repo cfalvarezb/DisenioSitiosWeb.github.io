@@ -1,0 +1,140 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+p {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: justify;
+}
+h3 {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.titu{
+  text-align: center;
+  width: 10%;
+  flex-basis: auto;
+  border: 1px ;
+}
+
+nav{
+  
+  /*Degradados*/
+  background-image: -moz-linear-gradient(top center, #FFF, #CCC);/*Para Firefox*/
+  background-image: -o-linear-gradient(top, #FFF, #CCC);/*Para Opera*/
+  background-image: linear-gradient(top, #FFF, #CCC);/*El estandar por defecto*/
+  overflow:hidden;
+  padding:10px;
+  width:98.5%;
+}
+
+nav ul{
+  list-style:none;
+  margin:0 10px 0 10px;
+  padding:0;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: auto;
+}
+
+nav ul li{
+  /*Bordes redondeados*/
+  -webkit-border-radius:5px;/*Chrome y Safari*/
+  -moz-border-radius:5px;/*Firefox*/
+  -o-border-radius:5px;/*Opera*/
+  border-radius:5px;/*Estandar por defecto*/
+  float:left;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  margin-right:10px;
+  text-align:center;
+  flex-basis: auto;
+  justify-content: space-around;
+  display: flex;
+  /*Sombras para texto, los mismos parametros que box-shadow*/
+  text-shadow: 0px 1px 0px #FFF;
+}
+
+nav ul li:hover{
+  /*Degradado de fondo*/
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));/*Chrome y Safari*/
+  background-image: -moz-linear-gradient(top center, #FFF, #E3E3E3);/*Firefox*/
+  background-image: -o-linear-gradient(top, #FFF, #E3E3E3);/*Opera*/
+  background-image: linear-gradient(top, #FFF, #E3E3E3);/*Estandar por defecto*/
+  /*Sombras*/
+  -webkit-box-shadow:  1px -1px 0px #999;/*Chrome y Safari*/
+  -moz-box-shadow:  1px -1px 0px #999;/*Firefox*/
+  -o-box-shadow:  1px -1px 0px #999;/*Opera*/
+  box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+  /**border:1px solid #E3E3E3;**/
+}
+
+nav ul li a{
+  color:#fff;
+  display:block;
+  padding:10px;
+  text-decoration:none;
+  flex-basis: auto;
+  display: flex;
+  justify-content: space-around;
+  /*Transiciones*/
+  -webkit-transition: 0.4s linear all;
+  -moz-transition: 0.4s linear all;
+  -o-transition: 0.4s linear all;
+  transition: 0.4s linear all;
+}
+
+nav ul li a:hover {
+  color:#000;
+}
+
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(235, 235, 235, 0);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/*para el archivo temaGitHub.html*/
+.tituGithub{
+  color: red;
+}
+.subtiGithub{
+  color: #E25600;
+}
+.temaGithub{
+  text-align: justify;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: Times New Roman;
+  color: #f2f2f2;
+}
+.imgGithub{  
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
