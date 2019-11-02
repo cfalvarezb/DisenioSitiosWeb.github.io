@@ -100,4 +100,30 @@ nav ul li a:hover {
   font-size: 30px;
 }
 
+/* estilos para tablas */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #005883;
+}
+
+td, th {
+  border: 1px solid #030303;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #808080;
+}		
+
+.margenes{
+  padding: 10%;
+}
+
+.colorAzul{
+  color: #005883;
+}
 
